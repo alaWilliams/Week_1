@@ -6,7 +6,7 @@
 
 process.stdout.write("Guess my secret number. Please, type in a number: ")
 process.stdin.on( "data", function( inputFromUser ){
-  let secretNumber = 2;
+  let secretNumber = 5;
   let userNumber = Number(inputFromUser);
   let add = secretNumber + userNumber;
   let subtract = userNumber - secretNumber;
